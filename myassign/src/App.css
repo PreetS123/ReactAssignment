@@ -1,0 +1,22 @@
+.App {
+  width: 50%;
+  margin: 50px 50px;
+
+}
+.lstli{
+  list-style-type: circle;
+}
+.btn-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 30px;
+  width: 40%; 
+}
+.btn{ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  padding: 1%;
+  
+}
